@@ -1,5 +1,4 @@
 
-
 .imgFade{
     background-color:white;
     transition: 1s;
@@ -13,14 +12,10 @@
 
 .imgFade:hover{
    
-   /* background-color:rgb(176, 188, 204);  */
    transform: scale(1.1);
 
 }
-/* .fadeText:hover{
-    color:black;
 
-} */
 .align-center{
     text-align:center;
 
@@ -39,10 +34,17 @@
 }
 
 .name{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     transition:1s;
-    
 }
+
+.headings{
+    font-family:'Times New Roman', Times, serif;
+}
+.default{
+    font-family:sans-serif
+}
+
 
 .box:hover .name{
     color:rgb(176, 188, 204);
@@ -50,36 +52,9 @@
     font-style:unset;
    
 }
- .box:hover .rightB{
-    color:rgb(176, 188, 204);
-    transform: translate(-50px, -8px);
-    
-}
-.box:hover  .leftB{
-    color:rgb(176, 188, 204);
-    transform: translate(50px, -8px);
-}
-.leftB{
-    font-size:3cm;
-    transform: translate(50px,-8px);
-    transition:1s;
-}
-.rightB{
-    font-size:3cm;
-    transform: translate(-50px,-8px);
-    transition:1s;
-} 
+
 p{
     font-size:0.6cm;
 }
 
-@keyframes fadeIn{
-    0%{
-        bakground-color:white;
-    }
-
-    100%{
-        background-color:darkolivegreen;
-    }
     
-}
