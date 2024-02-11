@@ -1,0 +1,64 @@
+
+
+.imgFade{
+    background-color:white;
+    transition: 1s;
+    border: 1cm;
+    border-color:aqua;
+}
+.fadeText{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    transition: 1s;
+}
+
+.imgFade:hover{
+   
+   /* background-color:rgb(176, 188, 204); */
+   border-color:rgb(176, 188, 204);
+   transform: scale(1.1);
+
+}
+/* .fadeText:hover{
+    color:black;
+
+} */
+.align-center{
+    text-align:center;
+
+}
+.align-left{
+    text-align:left;
+}
+.nav-item:hover .fadeText{
+    color:rgb(120, 120, 120);
+   
+}
+
+.name{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition:1s;
+    font-size:3cm
+}
+.name:hover{
+    color:rgb(176, 188, 204);
+    transform:scale(1.1);
+    font-weight:200;
+    font-style:initial;
+    text-underline-position: below;
+    
+}
+p{
+    font-size:0.6cm;
+}
+
+@keyframes fadeIn{
+    0%{
+        bakground-color:white;
+    }
+
+    100%{
+        background-color:darkolivegreen;
+    }
+    
+}
