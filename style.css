@@ -3,8 +3,7 @@
 .imgFade{
     background-color:white;
     transition: 1s;
-    border: 1cm;
-    border-color:aqua;
+   
 }
 .fadeText{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -14,8 +13,7 @@
 
 .imgFade:hover{
    
-   /* background-color:rgb(176, 188, 204); */
-   border-color:rgb(176, 188, 204);
+   /* background-color:rgb(176, 188, 204);  */
    transform: scale(1.1);
 
 }
