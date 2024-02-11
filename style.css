@@ -15,6 +15,12 @@
    transform: scale(1.1);
 
 }
+.fortnite{
+    background-image: url(images/AkinPicture.jpg);
+    height: 100%;
+    width:100%
+
+}
 
 .align-center{
     text-align:center;
@@ -40,9 +46,11 @@
 
 .headings{
     font-family:'Times New Roman', Times, serif;
+    font-size:2cm;
 }
 .default{
-    font-family:sans-serif
+    font-family:sans-serif;
+    font-size:1cm;
 }
 
 
