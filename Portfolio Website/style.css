@@ -29,6 +29,11 @@
 }
 .align-left{
     text-align:left;
+
+}
+
+.align-right{
+    text-align:right;
 }
 .nav-item:hover .fadeText{
     color:rgb(120, 120, 120);
@@ -38,16 +43,34 @@
 .name{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     transition:1s;
-    font-size:3cm
-}
-.name:hover{
-    color:rgb(176, 188, 204);
-    transform:scale(1.1);
-    font-weight:200;
-    font-style:initial;
-    text-underline-position: below;
     
 }
+
+.box:hover .name{
+    color:rgb(176, 188, 204);
+    transform:scale(1.1);
+    font-style:unset;
+   
+}
+ .box:hover .rightB{
+    color:rgb(176, 188, 204);
+    transform: translate(-50px, -8px);
+    
+}
+.box:hover  .leftB{
+    color:rgb(176, 188, 204);
+    transform: translate(50px, -8px);
+}
+.leftB{
+    font-size:3cm;
+    transform: translate(50px,-8px);
+    transition:1s;
+}
+.rightB{
+    font-size:3cm;
+    transform: translate(-50px,-8px);
+    transition:1s;
+} 
 p{
     font-size:0.6cm;
 }
