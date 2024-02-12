@@ -5,22 +5,17 @@
    
 }
 .fadeText{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:white;
     transition: 1s;
 }
 
 .imgFade:hover{
-   
-   transform: scale(1.1);
+    color:rgb(176, 188, 204);
+    transform: scale(1.1);
 
 }
-.fortnite{
-    background-image: url(images/AkinPicture.jpg);
-    height: 100%;
-    width:100%
 
-}
 
 .align-center{
     text-align:center;
@@ -35,7 +30,7 @@
     text-align:right;
 }
 .nav-item:hover .fadeText{
-    color:rgb(120, 120, 120);
+    color:rgb(176, 188, 204);
    
 }
 
@@ -46,11 +41,11 @@
 
 .headings{
     font-family:'Times New Roman', Times, serif;
-    font-size:2cm;
+    font-size:1.25cm;
 }
 .default{
-    font-family:sans-serif;
-    font-size:1cm;
+    font-family:'Courier New', Courier, monospace;
+    font-size:0.6cm;
 }
 
 
@@ -59,6 +54,29 @@
     transform:scale(1.1);
     font-style:unset;
    
+}
+
+.greyBorder{
+    border-color:rgb(176, 188, 204);
+}
+
+.center-caption{
+    top:50%;
+    transform: translateY(-50%);
+    bottom: initial;
+
+
+    transform-style:preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+
+}
+
+.fort{
+    margin: 0 auto;
+}
+.spacing{
+    margin-top:1cm;
 }
 
 p{
