@@ -72,8 +72,28 @@
 
 }
 
-.fort{
-    margin: 0 auto;
+
+
+
+
+ @media (max-width: 480px ) {
+    .fort
+ {
+     margin-top: 1cm; 
+ }
+}
+
+.navbar{
+    /* position:relative; */
+}
+
+@media (max-width:480px){
+    .center-nav{
+        
+        left: 50%; 
+        margin-left: 25%;
+        display:block;
+    }
 }
 .spacing{
     margin-top:1cm;
@@ -83,4 +103,7 @@ p{
     font-size:0.6cm;
 }
 
+.help{
+ justify-content: center;
+}
     
