@@ -83,9 +83,7 @@
  }
 }
 
-.navbar{
-    /* position:relative; */
-}
+
 
 @media (max-width:480px){
     .center-nav{
@@ -100,7 +98,13 @@
 }
 
 p{
-    font-size:0.6cm;
+    font-size:0.5cm;
+}
+
+.foot-text{
+    font-size:0.4cm;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(176, 188, 204);
 }
 
 .help{
