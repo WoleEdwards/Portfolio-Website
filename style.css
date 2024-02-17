@@ -16,14 +16,13 @@
 
 }
 
-
 .align-center{
     text-align:center;
 
 }
+
 .align-left{
     text-align:left;
-
 }
 
 .align-right{
@@ -46,6 +45,7 @@
 .default{
     font-family:'Courier New', Courier, monospace;
     font-size:0.6cm;
+    color:black;
 }
 
 
@@ -73,26 +73,29 @@
 }
 
 
-
-
-
  @media (max-width: 480px ) {
-    .fort
+    .center-logo
  {
-     margin-top: 1cm; 
+     justify-content: center;
+     margin:auto;
  }
 }
 
 
 
+
+
+.center-message{
+    margin-top:4cm;
+}
 @media (max-width:480px){
-    .center-nav{
+    .center-message{
         
-        left: 50%; 
-        margin-left: 25%;
-        display:block;
+            margin-top:.5cm;
     }
 }
+
+
 .spacing{
     margin-top:1cm;
 }
@@ -100,7 +103,11 @@
 p{
     font-size:0.5cm;
 }
-
+.project-img{
+    height:350px;
+    width:400px;
+    object-fit:cover;
+}
 .foot-text{
     font-size:0.4cm;
     font-family: 'Courier New', Courier, monospace;
