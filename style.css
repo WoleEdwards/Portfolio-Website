@@ -48,6 +48,13 @@
     color:black;
 }
 
+.fortnite{
+    font-family:'Courier New', Courier, monospace;
+    font-size:1cm;
+    color:black;
+    font-weight:100;
+}
+
 
 .box:hover .name{
     color:rgb(176, 188, 204);
